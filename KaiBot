@@ -55,6 +55,15 @@ while True:
         print(f"{name}: I'm feeling {random.choice(mood)} thanks for asking.")
     elif user_input.lower() in ["hi", "hello", "hey", "wassup", "yo"]:
         print(f"{name}: {random.choice(greetings)}")
+        print(f"{name}: Here is what i can provide:")
+        print(f" -info about minecraft")
+        print(f" -tell you some jokes")
+        print(f" -motivate you")
+        print(f" -info about anime")
+        print(f" -info about school")
+        print(f" -tell you my favourite color")
+        print(f" -tell you my hobies")
+        print(f" -tell you who my owner is")
     elif user_input.lower() in ["what do you like to do", "what are your hobies", "what do you enjoy", "tell me ur hobies", "tell me your hobies"]:
         print(f"{name}: i enjoy {random.choice(hobies)}")
     elif "bye" in user_input.lower():
@@ -81,4 +90,4 @@ while True:
             print(f"{name}: My favourite color is {random.choice(colors)}")            
     else:
         print(f"{name}: I didn't understand that. Please try again!")
-      
+        
